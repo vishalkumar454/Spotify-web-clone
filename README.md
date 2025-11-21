@@ -1,4 +1,3 @@
-# Spotify-web-clone
 # Spotify Clone - Web Player UI
 
 A simple and clean Spotify Web Player interface clone built using **HTML**, **CSS**, and **Font Awesome icons**.  
