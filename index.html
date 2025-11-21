@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="icon" href="./Assests/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="navbar-option">
+
+                <div class="spotify-logo icon" data-tooltip="Spotify">
+                    <a href="#" style="color: #fff;"><i class="fab fa-spotify"></i></a>
+                </div>
+
+                <div class="homeicon icon" data-tooltip="Home">
+                    <i class="fa-solid fa-house"></i>
+                </div>
+            
+                <div class="search">
+                    <div class="searchicon icon" data-tooltip="search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+
+                    <div class="input">
+                        <label for="search"></label>
+                        <input type="search" name="search" id="search" placeholder="what do you want to play?">
+                    </div>
+
+                    <div class="Browse icon" data-tooltip="Browse">
+                        <span>|</span>
+                        <i class="fa-solid fa-store"></i>
+                    </div>
+
+                </div>
+
+                <div class="feature-option">
+                    <div class="feature">Premium</div>
+                    <div class="feature">Support</div>
+                    <div class="feature">Download</div>
+                    <span class="line">|</span>
+                    <div class="feature option">
+                        <i class="fa-solid fa-circle-down"></i>
+                        <a href="#">Install App</a>
+                    </div>
+                    <div class="feature option">Sign up</div>
+                    <div class="feature option login">Log in</div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <div class="sidebar">
+
+                <div class="library">
+
+                    <div class="options">
+                        <div class="lib-option">
+                            <p>Your Library</p>
+                        </div>
+                        
+                        <div class="icons">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                    </div>
+
+                    <div class="lib-box">
+                        <div class="box">
+                            <p class="box-p1">Create your first playlist</p>
+                            <p class="box-p2">It's easy,we'll help you</p>
+                            <button class="badge">Create playlist</button>
+                        </div>
+
+                        <div class="box">
+                            <p class="box-p1">Let's find some podcasts to follow</p>
+                            <p class="box-p2">We'll keep you updated on new episodes</p>
+                            <button class="badge">Browse podcasts</button>
+                        </div>
+                    </div>
+
+                    <div class="about">
+                        <div class="information">
+                            <div class="info">
+                                <a href="#">Legal</a>
+                                <a href="#">Safety & Privacy Center</a>
+                                <a href="#">Privacy Policy</a>
+                                <a href="#">Cookies</a>
+                                <a href="#">About ads</a>
+                                <a href="#">Accessibility</a>
+                            </div>
+                            <div class="info info1">
+                                <a href="#">Cookies</a>
+                            </div>
+                        </div>
+
+                        <button class="badge btn">
+                                <i class="fa-solid fa-globe"></i>
+                                <span>English</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="main-content">
+
+                <h3>Recently Played</h3>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./Assests/card1img.jpeg" class="card-img">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks ...</p>
+                    </div>
+                </div>
+
+                <h3>Trending now near you</h3>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./Assests/card2img.jpeg" class="card-img">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks ...</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./Assests/card3img.jpeg" class="card-img">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks ...</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./Assests/card4img.jpeg" class="card-img">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks ...</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./Assests/card4img.jpeg" class="card-img">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks ...</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./Assests/card3img.jpeg" class="card-img">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks ...</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./Assests/card4img.jpeg" class="card-img">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks ...</p>
+                    </div>
+                </div>
+
+                <h3>Feature chart</h3>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./Assests/card5img.jpeg" class="card-img">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks ...</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./Assests/card6img.jpeg" class="card-img">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks ...</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./Assests/card1img.jpeg" class="card-img">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks ...</p>
+                    </div>
+                </div>
+
+                <div class="footer">
+                    <div class="line1">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="musicbar">
+
+            <div class="album">
+            
+                <div>
+                    <img src="./Assests/card1img.jpeg" class="album-img">
+                </div>
+                
+                <div class="song-detail">
+                    <div class="song-name">Daylight</div>
+                    <div class="singer">David kushpoor</div>
+                </div>
+
+                <div class="album-icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-rectangle-list"></i>
+                </div>
+        
+            </div>
+            <div class="player">
+                <div class="player-controls">
+                    <img src="./Assests/player_icon1.png" class="player-control-icon">
+                    <img src="./Assests/player_icon2.png" class="player-control-icon">
+                    <img src="./Assests/player_icon3.png" class="player-control-icon" style="height: 1.2rem;">
+                    <img src="./Assests/player_icon4.png" class="player-control-icon">
+                    <img src="./Assests/player_icon5.png" class="player-control-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1">
+                    <span class="tot-time">03:33</span>
+                </div>
+            </div>
+            <div class="controls">
+                <div class="icons-list">
+                    <div class="icons-list-1"><i class="fa-solid fa-play"></i></div>
+                    <div class="icons-list-1"><i class="fa-solid fa-microphone-lines"></i></div>
+                    <div class="icons-list-1"><i class="fa-solid fa-bars-staggered"></i></div>
+                    <div class="icons-list-1"><i class="fa-solid fa-id-badge"></i></div>
+                    <div class="icons-list-1"><i class="fa-solid fa-volume-low"></i></div>
+                    <div class="icons-list-1 volume"><input type="range" min="0" max="100"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
